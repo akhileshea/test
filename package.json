@@ -1,0 +1,53 @@
+{
+  "name": "react-map",
+  "description": "Samples for Google Maps JavaScript",
+  "version": "2.1.4",
+  "keywords": [
+    "google",
+    "javascript",
+    "maps",
+    "samples"
+  ],
+  "homepage": "https://github.com/googlemaps/js-samples#readme",
+  "bugs": {
+    "url": "https://github.com/googlemaps/js-samples/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/googlemaps/js-samples.git"
+  },
+  "files": [],
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build --outDir dist --base './'",
+    "test": "tsc --no-emit",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/google.maps": "^3.48.7",
+    "@types/react-router-dom": "^5.3.3",
+    "typescript": "^4.6.3",
+    "vite": "^2.9.1"
+  },
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.8",
+    "@emotion/styled": "^11.10.8",
+    "@googlemaps/react-wrapper": "^1.1.30",
+    "@googlemaps/typescript-guards": "^1.0.13",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.12.3",
+    "@react-firebase/auth": "^0.2.10",
+    "@react-firebase/database": "^0.3.11",
+    "fast-equals": "^2.0.3",
+    "firebase": "^9.21.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-places-autocomplete": "^7.3.0",
+    "react-router-dom": "^6.11.0"
+  }
+}
